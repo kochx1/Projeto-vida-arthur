@@ -14,3 +14,9 @@ for (let i=0; i<botoes.lenght; 1++){
     };
 }
 
+const contadores = document. querySelectorAll(".contador")
+const tempoObjetivo1 = new date("2026.10.30T00:00:00")
+
+let tempoAtual = nw Date();
+
+contadores[0].textContent = tempoObjetivo1 - tempoAtual;
